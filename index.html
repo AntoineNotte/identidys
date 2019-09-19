@@ -19,12 +19,12 @@
         </header>
 
         <div class="row">
-            <div class="infosection offset-lg-3 col-lg-6">
+            <div id='infosection' class="infosection offset-lg-3 col-lg-6">
                 <p>Sphère A <span class="minimargin">Attention/Hyperactivité/Impulsivité</p></span>
             </div>
         </div>
 
-        <section class='firstsection offset-lg-3 col-lg-6'>
+        <section id='section1' class='firstsection offset-lg-3 col-lg-6'>
             <p class="mt-4">Votre enfant a du mal à soutenir son attention ( rester concentré longtemps également sur une activité de
                 loisir)
                 ET/OU Il a tendance a se désinvestir de tâches nécésssitant un effort mental soutenu ( y compris en
@@ -91,40 +91,44 @@
                 <textarea id="story" name="story" class="col-lg-12 textcommentary" placeholder="Commentaire (facultatif)"></textarea>
             <p class="mt-4">Les difficultés attentionnelles sont observées dans la sphère scolaire (école et devoirs). </p>
                 <div class="row">
+                    <fieldset id='groupe1'>
                         <label class="offset-lg-2 col-lg-3">
-                            <input type="radio" name="reponse[]" value="2">
+                            <input type="radio" name="groupe1" value="2">
                             Oui
                             <span class="checkmark"></span>
                         </label>
                         <label class="col-lg-3">
-                            <input type="radio" name="reponse[]" value="0.5">
+                            <input type="radio" name="groupe1" value="0.5">
                             Rarement
                             <span class="checkmark"></span>
                         </label>
                         <label class="col-lg-3">
-                            <input type="radio" name="reponse[]" value="0">
+                            <input type="radio" name="groupe1" value="0">
                             Non
                             <span class="checkmark"></span>
                         </label>
+                    </fieldset>
                     </div>
                     <textarea id="story" name="story" class="col-lg-12 textcommentary" placeholder="Commentaire (facultatif)"></textarea>
                     <p class="mt-4">Les difficultés attentionnelles sont observées dans la sphère privée (loisirs, activités quotidiennes).</p>
                 <div class="row">
+                    <fieldset id='groupe2'>
                         <label class="offset-lg-2 col-lg-3">
-                            <input type="radio" name="reponse[]" value="2">
+                            <input type="radio" name="groupe2" value="2">
                             Oui
                             <span class="checkmark"></span>
                         </label>
                         <label class="col-lg-3">
-                            <input type="radio" name="reponse[]" value="0.5">
+                            <input type="radio" name="groupe2" value="0.5">
                             Rarement
                             <span class="checkmark"></span>
                         </label>
                         <label class="col-lg-3">
-                            <input type="radio" name="reponse[]" value="0">
+                            <input type="radio" name="groupe2" value="0">
                             Non
                             <span class="checkmark"></span>
                         </label>
+                    </fieldset>
                     </div>
                     <textarea id="story" name="story" class="col-lg-12 textcommentary" placeholder="Commentaire (facultatif)"></textarea>
                     <p class="mt-4">Les difficultés attentionnelles sont présentes depuis plus de 6 mois.</p>
@@ -263,7 +267,305 @@
                         </label>
                     </div>
                     <textarea id="story" name="story" class="col-lg-12 textcommentary" placeholder="Commentaire (facultatif)"></textarea>
-            <button class="btnnext" id="btn1">Suivant -></button>
+                    <button class="btnnext" id="btn1" >Suivant -></button>
+                    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!--Section 2-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="row">
+                            <div id='infosection2' class="infosection offset-lg-3 col-lg-6">
+                                <p>Sphère B <span class="minimargin">Langage oral</p></span>
+                            </div>
+                        </div>
+                
+                        <section id='section2' class='secondsection offset-lg-3 col-lg-6'>
+                            <p class="mt-4">Votre enfant a des difficultés pour comprendre le sens des conversations. </p>
+                            <div class="row">
+                                <label class="offset-lg-2 col-lg-3">
+                                    <input type="radio" name="reponse[]" value="2">
+                                    Oui
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="col-lg-3">
+                                    <input type="radio" name="reponse[]" value="0.5">
+                                    Rarement
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="col-lg-3">
+                                    <input type="radio" name="reponse[]" value="0">
+                                    Non
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <textarea id="story" name="story" class="col-lg-12 textcommentary2" placeholder="Commentaire (facultatif)"></textarea>
+                            <p class="mt-4">Votre enfant montre des difficultés pour trouver les mots justes (manque du mot).</p>
+                            <div class="row">
+                                    <label class="offset-lg-2 col-lg-3">
+                                        <input type="radio" name="reponse[]" value="2">
+                                        Oui
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="col-lg-3">
+                                        <input type="radio" name="reponse[]" value="0.5">
+                                        Rarement
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="col-lg-3">
+                                        <input type="radio" name="reponse[]" value="0">
+                                        Non
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <textarea id="story" name="story" class="col-lg-12 textcommentary2" placeholder="Commentaire (facultatif)"></textarea>
+                            <p class="mt-4">Votre enfant a des difficultés pour résumer ou raconter une histoire de manière cohérente.</p>
+                            <div class="row">
+                                    <label class="offset-lg-2 col-lg-3">
+                                        <input type="radio" name="reponse[]" value="2">
+                                        Oui
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="col-lg-3">
+                                        <input type="radio" name="reponse[]" value="0.5">
+                                        Rarement
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="col-lg-3">
+                                        <input type="radio" name="reponse[]" value="0">
+                                        Non
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <textarea id="story" name="story" class="col-lg-12 textcommentary2" placeholder="Commentaire (facultatif)"></textarea>
+                            <p class="mt-4">Votre enfant montre des difficultés pour s’exprimer (on ne le comprend pas toujours). </p>
+                                <div class="row">
+                                    <fieldset id='groupe1'>
+                                        <label class="offset-lg-2 col-lg-3">
+                                            <input type="radio" name="groupe1" value="2">
+                                            Oui
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="groupe1" value="0.5">
+                                            Rarement
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="groupe1" value="0">
+                                            Non
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </fieldset>
+                                    </div>
+                                    <textarea id="story" name="story" class="col-lg-12 textcommentary2" placeholder="Commentaire (facultatif)"></textarea>
+                                    <p class="mt-4">Votre enfant parvient davantage à réaliser ses exercices lorsque qu’on lui reformule les consignes.</p>
+                                <div class="row">
+                                    <fieldset id='groupe2'>
+                                        <label class="offset-lg-2 col-lg-3">
+                                            <input type="radio" name="groupe2" value="2">
+                                            Oui
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="groupe2" value="0.5">
+                                            Rarement
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="groupe2" value="0">
+                                            Non
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </fieldset>
+                                    </div>
+                                    <textarea id="story" name="story" class="col-lg-12 textcommentary2" placeholder="Commentaire (facultatif)"></textarea>
+                                    <p class="mt-4">Votre enfant a des difficultés pour structurer correctement ses phrases.</p>
+                                <div class="row">
+                                        <label class="offset-lg-2 col-lg-3">
+                                            <input type="radio" name="reponse[]" value="2">
+                                            Oui
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0.5">
+                                            Rarement
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0">
+                                            Non
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <textarea id="story" name="story" class="col-lg-12 textcommentary2" placeholder="Commentaire (facultatif)"></textarea>
+                                    <p class="mt-4">Le langage a mis du temps à se mettre en place (Votre enfant ne faisait pas de phrase à l’entrée en Maternelle ET/OU on ne le
+                                            comprenait pas).</p>
+                                <div class="row">
+                                        <label class="offset-lg-2 col-lg-3">
+                                            <input type="radio" name="reponse[]" value="2">
+                                            Oui
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0.5">
+                                            Rarement
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0">
+                                            Non
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <textarea id="story" name="story" class="col-lg-12 textcommentary2" placeholder="Commentaire (facultatif)"></textarea>
+                                    <p class="mt-4">Votre enfant n’a pas un vocabulaire étendu.</p>
+                                <div class="row">
+                                        <label class="offset-lg-2 col-lg-3">
+                                            <input type="radio" name="reponse[]" value="2">
+                                            Oui
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0.5">
+                                            Rarement
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0">
+                                            Non
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <textarea id="story" name="story" class="col-lg-12 textcommentary2" placeholder="Commentaire (facultatif)"></textarea>
+                                    <p class="mt-4">Votre enfant a des difficultés pour conjuguer les verbes.</p>
+                                <div class="row">
+                                        <label class="offset-lg-2 col-lg-3">
+                                            <input type="radio" name="reponse[]" value="2">
+                                            Oui
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0.5">
+                                            Rarement
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0">
+                                            Non
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <textarea id="story" name="story" class="col-lg-12 textcommentary2" placeholder="Commentaire (facultatif)"></textarea>
+                                    <p class="mt-4">Votre enfant a des difficultés dans ses relations avec les autres enfants de son âge. </p>
+                                <div class="row">
+                                        <label class="offset-lg-2 col-lg-3">
+                                            <input type="radio" name="reponse[]" value="2">
+                                            Oui
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0.5">
+                                            Rarement
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0">
+                                            Non
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <textarea id="story" name="story" class="col-lg-12 textcommentary2" placeholder="Commentaire (facultatif)"></textarea>
+                                    <p class="mt-4">Votre enfant était colérique ou pleurait souvent dans la petite enfance.</p>
+                                <div class="row">
+                                        <label class="offset-lg-2 col-lg-3">
+                                            <input type="radio" name="reponse[]" value="2">
+                                            Oui
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0.5">
+                                            Rarement
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0">
+                                            Non
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <textarea id="story" name="story" class="col-lg-12 textcommentary2" placeholder="Commentaire (facultatif)"></textarea>
+                                    <p class="mt-4">Votre enfant a tendance à procéder par mimétisme en classe (à se calquer sur ce que font les autres).</p>
+                                <div class="row">
+                                        <label class="offset-lg-2 col-lg-3">
+                                            <input type="radio" name="reponse[]" value="2">
+                                            Oui
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0.5">
+                                            Rarement
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="col-lg-3">
+                                            <input type="radio" name="reponse[]" value="0">
+                                            Non
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                    <!-- Section 3-->
+                    <textarea id="story" name="story" class="col-lg-12 textcommentary2" placeholder="Commentaire (facultatif)"></textarea>
+                    <button class="btnafter"> <- Précedent </button>
+            <button class="btnnext" id="btn2" >Suivant -></button>
         </section>
         <div class="progress offset-lg-3 col-lg-6">                 
                 <div class="progress-bar  
