@@ -1,15 +1,23 @@
 <?php
 
+
+//calcule réponse sphere A
 $a=0;
-foreach ($_POST['reponse'] as $value)
+for ($i=1;$i <= 12;$i++){
+foreach ($_POST['reponse'.$i] as $value)
 {
-  $a+=$value;
+   $a+=$value;
+}}
+
+if($a<11.25){
+   echo 'Tout est ok';
 }
-echo $a;
-if(!$_POST['reponse']){
-   echo "Aucune checkbox n'a été cochée";
+else if($a>11.25 && $a<21){
+   echo 'a surveiller';
+}
+else {
+   echo 'a risque';
 }
 
-if($a==2){
-   echo 'niveau 3';
-}
+// calcule réponse sphere B
+

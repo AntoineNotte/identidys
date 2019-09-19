@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    overflow-y:hidden;
+}
+
+header {
+    text-align: center;
+}
+
+.logoheader {
+    margin-top:-8em;
+    margin-bottom:-5em;
+}
+
+.subtitle {
+    margin-top:-5.8em;
+}
+
+
+.minimargin {
+    margin-left:2em;
+}
+
+
+.firstsection {
+    border : 3px #F27F3D solid;
+    margin-bottom:5em;
+    overflow:auto;
+    height:500px;
+    position:absolute;
+    
+}
+
+.animation {
+    -webkit-animation-name:LefttoRight;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+}   
+
+@-webkit-keyframes LefttoRight {
+    0%   { left:0;}
+    50%  {opacity:0.2}
+    100% { 
+        left:-99em;
+        opacity:0;
+        }
+}
+
+.infosection {
+    position:absolute;
+    left:0;
+    transition: left 1s, transform 1s;
+    white-space: nowrap;
+}
+
+.textcommentary {
+    border : 2px #F27F3D solid !important;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+textarea {
+    outline:none;
+}
+
+.btnnext {
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+.progress {
+    margin-bottom: 2em;
+    margin-top:-3em;
+}
+
+.secondsection {
+    border : 3px blue solid;
+    margin-bottom:5em;
+    overflow:auto;
+    height:500px;
+    position:absolute;
+    top:-38.7em;
+    right:-100em;
+    overflow-x:hidden;
+}
+
+.textcommentary2 {
+    border : 2px blue solid;
+    border-radius: 10px;
+}
+
+.infosection2 {
+    position:absolute;
+    left:0;
+    transition: left 1s, transform 1s;
+    white-space: nowrap;
+    top: -40em;
+    right:-100em;
+}
