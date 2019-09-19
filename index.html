@@ -10,23 +10,23 @@
 </head>
 <body>
 
-<section class='firstsection offset-lg-3 col-lg-6'>
+<form action="index.php" method="post" class='firstsection offset-lg-3 col-lg-6'>
         <p>Votre enfant a du mal à soutenir son attention ( rester concentré longtemps également sur une activité de loisir)
             ET/OU Il a tendance a se désinvestir de tâches nécésssitant un effort mental soutenu ( y compris en dehors du scolaire, ex.jeux de société)
         </p>
         <label class="container">
-                <input type="checkbox" checked="checked">
+                <input type="checkbox" checked="checked" name="reponse" value="oui">
                 Oui
                 <span class="checkmark"></span>
             </label>
             <label class="container">
-                    <input type="checkbox" checked="checked">
+                    <input type="checkbox" checked="checked"name="reponse" value="rarement">
                         Rarement
                     <span class="checkmark"></span>
                 </label>
                 <label class="container">
-                        <input type="checkbox" checked="checked">
-                        Parfois
+                        <input type="checkbox" checked="checked" name="reponse" value="non">
+                        Non
                         <span class="checkmark"></span>
                     </label>
         <textarea id="story" name="story">
