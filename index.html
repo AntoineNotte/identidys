@@ -1,275 +1,86 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Identidys</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Identidys</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <form  action = "index.php" method="post">
-        
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" class="oui" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" class="rarement" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" class="non" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-    <div>
-        <input type="checkbox" id="scales" name="scales">
-        <label for="scales">Oui</label>
-    </div>
-    <div>
-        <input type="checkbox" id="scales" name="scales">
-        <label for="scales">Rarement</label>
-    </div>
-    <div>
-        <input type="checkbox" id="scales" name="scales">
-        <label for="scales">Non</label>
-    </div>
-    <textarea id="story" name="story">
+
+<section class='firstsection offset-lg-3 col-lg-6'>
+        <p>Votre enfant a du mal à soutenir son attention ( rester concentré longtemps également sur une activité de loisir)
+            ET/OU Il a tendance a se désinvestir de tâches nécésssitant un effort mental soutenu ( y compris en dehors du scolaire, ex.jeux de société)
+        </p>
+        <label class="container">
+                <input type="checkbox" checked="checked">
+                Oui
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                    <input type="checkbox" checked="checked">
+                        Rarement
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                        <input type="checkbox" checked="checked">
+                        Parfois
+                        <span class="checkmark"></span>
+                    </label>
+        <textarea id="story" name="story">
+    Commentaire (facultatif)
+        </textarea>
+        <p>Votre enfant est facilement distrait par ce qui peut se passer autour de lui</p>
+        <div>
+            <input type="checkbox" id="scales" name="scales">
+            <label for="scales">Oui</label>
+        </div>
+        <div>
+            <input type="checkbox" id="scales" name="scales">
+            <label for="scales">Rarement</label>
+        </div>
+        <div>
+            <input type="checkbox" id="scales" name="scales">
+            <label for="scales">Non</label>
+        </div>
+        <textarea id="story" name="story" placeholder="Commentaire (facultatif)">
+        </textarea>
+        <p>Votre enfant oublie fréquemment certaines choses de la vie quotidienne
+            (consignes,cahiers,clefs...) ET/OU Il perd régulièrement des objets ou des affaires nécéssaires a son travail ou à ses activités ( sac, trousse, portable...)
+        </p>
+        <div>
+            <input type="checkbox" id="scales" name="scales">
+            <label for="scales">Oui</label>
+        </div>
+        <div>
+            <input type="checkbox" id="scales" name="scales">
+            <label for="scales">Rarement</label>
+        </div>
+        <div>
+            <input type="checkbox" id="scales" name="scales">
+            <label for="scales">Non</label>
+        </div>
+        <textarea id="story" name="story">
+    Commentaire (facultatif)
+        </textarea>
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
+<div>
+    <input type="checkbox" id="scales" name="scales">
+    <label for="scales">Oui</label>
+</div>
+<div>
+    <input type="checkbox" id="scales" name="scales">
+    <label for="scales">Rarement</label>
+</div>
+<div>
+    <input type="checkbox" id="scales" name="scales">
+    <label for="scales">Non</label>
+</div>
+<textarea id="story" name="story">
 Commentaire (facultatif)
-    </textarea>
-</form>
-
-
-
-
-
-
-
-
-    <section class='secondsection'>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-    
-    
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-        </form>
-
-            
-    <section class='thirdsection'>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-            </section>
-
-            
-    <section class='forsection'>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, aliquam. Culpa, veritatis reiciendis? Maiores quod impedit vitae reprehenderit labore possimus odio consequatur quae necessitatibus similique saepe deserunt, eum excepturi mollitia!</p>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Oui</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Rarement</label>
-            </div>
-            <div>
-                <input type="checkbox" id="scales" name="scales">
-                <label for="scales">Non</label>
-            </div>
-            <textarea id="story" name="story">
-        Commentaire (facultatif)
-            </textarea>
-            </section>
-
-</body>
-</html>
+</textarea>
+<button>Send</button>
+</section>
