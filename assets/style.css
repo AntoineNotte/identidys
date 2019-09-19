@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+header {
+    text-align: center;
+}
+
+.logoheader {
+    margin-top:-8em;
+    margin-bottom:-5em;
+}
+
+.subtitle {
+    margin-top:-5.8em;
+}
+
+.infosection {
+}
+
+.minimargin {
+    margin-left:2em;
+}
+
+
+.firstsection {
+    border : 3px #F27F3D solid;
+    margin-bottom:5em;
+    overflow:auto;
+    height:50%;
+}
+
+.textcommentary {
+    border : 2px #F27F3D solid;
+    border-radius: 10px;
+}
