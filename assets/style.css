@@ -1,4 +1,89 @@
-/*infosection LEFT FOU LA MERDE */
+/* Responsive */
+
+@media screen and (max-width: 640px)
+{
+    .option-input:checked::before {
+        color:white;
+    }
+    html {
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
+    }
+    .logoheader {
+        max-width: 100%;
+        margin-top:-10em !important;
+    }
+    .sphere1 {
+        font-size:12px;
+    }
+    .sphere2 {
+        font-size:12px;
+    }
+    .sphere3 {
+        font-size:12px;
+    }
+    .sphere4 {
+        font-size:12px;
+    }
+    .sphere5 {
+        font-size:12px;
+    }
+    .othermargin {
+        margin-left:2.5em !important;
+    }
+    .othermargin2 {
+        margin-left:10.5em !important;
+    }
+    .btnnav {
+        margin-left:70% !important;
+    }
+    .firstsection {
+        height:350px !important;
+    }
+    .secondsection {
+        height:350px !important;
+        top: -30em !important;
+    }
+    .threesection {
+        height:350px !important;
+        top: -59em !important
+    }
+    .forsection {
+        height:350px !important;
+        top: -88em !important;
+    }
+    .fivesection {
+        height:350px !important;
+        top: -116.5em !important
+    }
+    .btnnav2 {
+        margin-left: 20% !important;
+    }
+    .btnnav3 {
+        margin-left: 20% !important;
+    }
+    .btnnav4 {
+        margin-left: 20% !important;
+    }
+    .btnnav5 {
+        margin-left: 20% !important;
+    }
+    .prec {
+        margin-left: 0 !important;
+    }
+    .infosection2 {
+        top: -30em !important;
+    }
+    .infosection3 {
+        top: -59em!important;
+    }
+    .infosection4 {
+        top: -88em !important;
+    }
+    .infosection5 {
+        top: -116.5em !important
+    }
+}
 
 
 .animationleave {

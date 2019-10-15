@@ -13,7 +13,8 @@ let fiveinfo = document.getElementById('infosection5');
 
 
 // Faire venir Sphere 2
-document.getElementById("btn1next").addEventListener("click",() => {
+document.getElementById("btn1next").addEventListener("click",(e) => {
+    e.preventDefault()
     for (let i = 0 ; i < first.classList.length ; i++) {
         if (first.classList[i] == 'animationleave') {
             first.classList.remove('animationleave');
@@ -40,7 +41,8 @@ document.getElementById("btn1next").addEventListener("click",() => {
 });
 
 // Faire revenir Sphere 1
-document.getElementById("btn2after").addEventListener("click",() => {
+document.getElementById("btn2after").addEventListener("click",(e) => {
+    e.preventDefault()
     for (let i = 0 ; i < first.classList.length ; i++) {
         second.classList.remove('animationcome');
         secondinfo.classList.remove('animationcome');
@@ -63,7 +65,8 @@ document.getElementById("btn2after").addEventListener("click",() => {
 });
 
 // Faire venir Sphere 3
-document.getElementById("btn2next").addEventListener("click",() => {
+document.getElementById("btn2next").addEventListener("click",(e) => {
+    e.preventDefault()
     for (let i = 0 ; i < first.classList.length ; i++) {
         if (second.classList[i] == 'animationleave') {
             second.classList.remove('animationleave');
@@ -91,7 +94,8 @@ document.getElementById("btn2next").addEventListener("click",() => {
 
 
 // Faire revenir Sphere 2
-document.getElementById("btn3after").addEventListener("click",() => {
+document.getElementById("btn3after").addEventListener("click",(e) => {
+    e.preventDefault()
     for (let i = 0 ; i < first.classList.length ; i++) {
         three.classList.remove('animationcome');
         threeinfo.classList.remove('animationcome');
@@ -118,7 +122,8 @@ document.getElementById("btn3after").addEventListener("click",() => {
 
 
 // Faire venir Sphere 4
-document.getElementById("btn3next").addEventListener("click",() => {
+document.getElementById("btn3next").addEventListener("click",(e) => {
+    e.preventDefault()
     for (let i = 0 ; i < first.classList.length ; i++) {
         if (three.classList[i] == 'animationleave') {
             three.classList.remove('animationleave');
@@ -146,7 +151,8 @@ document.getElementById("btn3next").addEventListener("click",() => {
 
 
 // Faire revenir Sphere 3
-document.getElementById("btn4after").addEventListener("click",() => {
+document.getElementById("btn4after").addEventListener("click",(e) => {
+    e.preventDefault()
     for (let i = 0 ; i < first.classList.length ; i++) {
         four.classList.remove('animationcome');
         fourinfo.classList.remove('animationcome');
@@ -196,7 +202,8 @@ document.getElementById("btn4next").addEventListener("click",() => {
 
 
 // Faire revenir Sphere 4
-document.getElementById("btn5after").addEventListener("click",() => {
+document.getElementById("btn5after").addEventListener("click",(e) => {
+    e.preventDefault()
     for (let i = 0 ; i < first.classList.length ; i++) {
         five.classList.remove('animationcome');
         fiveinfo.classList.remove('animationcome');
