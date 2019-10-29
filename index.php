@@ -1,25 +1,7 @@
-<?php
+<!-- <?php
 session_start()
-
-// //calcule réponse sphere A
-// $a=0;
-// for ($i=1;$i <= 12;$i++){
-// foreach ($_POST['reponse'.$i] as $value)
-// {
-//    $a+=$value;
-// }}
-
-// if($a<11.25){
-//    echo 'Tout est ok';
-// }
-// else if($a>11.25 && $a<21){
-//    echo 'a surveiller';
-// }
-// else {
-//    echo 'a risque';
-// }
 ?>
-<!-- CREE COMPONENT POUR RENDRE PLUS PETIT LE CODE -->
+<-- CREE COMPONENT POUR RENDRE PLUS PETIT LE CODE -->
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -43,6 +25,22 @@ session_start()
         <header>
             <span id='logo'><img class="logoheader" src='assets/logo1.png' height="400"></span>
         </header>
+
+        <div id='introsection' class="infosection offset-lg-3 col-lg-6">
+                <p class="intro">Echelle d'aide au dépistage des troubles DYS</p>
+        </div>
+        <section id='intro' class='introsection offset-lg-3 col-lg-6'>
+            <p class="mt-4">Dites ( par rapport à ce que vous pouvez observer chez votre enfant), si les situations rapportées se rencontrent:
+                <ul>
+                    <li>Oui-Très souvent</li>
+                    <li>Rarement-Situations anecdotiques</li>
+                    <li>Non-Jamais</li>
+                </ul>
+            <p> Vous etes également libre d'y associer des commentaires afin de préciser vos réponses </p>
+            <button class="btnintro" id="intronxt">Commencer</button>
+            <p>Propriété intellectuelle : Jérôme BIANCHI Neuropsychologue- Version 2018 </p>
+        </section>
+
 
 
         <form action="calcul.php" method="post">
@@ -367,7 +365,7 @@ session_start()
 
 
 
-
+<
 
         <div class="row">
             <div id='infosection2' class="infosection2 offset-lg-3 col-lg-6">
@@ -630,9 +628,9 @@ session_start()
 
 
 
+<!-- 
 
-
-        <!-- Section 3-->
+        Section 3 -->
 
 
 
@@ -916,8 +914,8 @@ session_start()
 
 
 
-        <!--  SPHERE 4  -->
-
+         <!-- SPHERE 4 
+ -->
 
 
 
@@ -1220,8 +1218,8 @@ session_start()
 
 
 
-
-        <!--  SPHERE   5    -->
+<!-- 
+         SPHERE   5    -->
 
         <div class="row">
             <div id='infosection5' class="infosection5 offset-lg-3 col-lg-6">
@@ -1487,7 +1485,7 @@ session_start()
             <div class="btnsphere">
                 <button class="btnnav5 prec" id='btn5after'> Précedent </button> 
                 <button class="btnnav5" id="btn5submit">Soumettre</button>
-            </div>
+            </div> 
         </section>
         </form>
-    <script src="script.js"></script>
+    <script src="script.js"></script> 
