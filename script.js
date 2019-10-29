@@ -10,7 +10,31 @@ let four = document.getElementById('section4');
 let fourinfo = document.getElementById('infosection4');
 let five = document.getElementById('section5');
 let fiveinfo = document.getElementById('infosection5');
+let introsection = document.getElementById('introsection');
+let intro = document.getElementById('intro')
 
+
+
+// Faire venir Sphere 1
+document.getElementById("intronxt").addEventListener("click",(e) => {
+    e.preventDefault()
+    for (let i = 0 ; i < first.classList.length ; i++) {
+        if (first.classList[i] == 'animationcome') {
+            first.classList.remove('animationcome');
+            firstinfo.classList.remove('animationcome');
+        }
+        if (first.classList[i] == 'animationbackfromright') {
+            first.classList.remove('animationbackfromright');
+            firstinfo.classList.remove('animationbackfromright');
+        }
+    }
+
+    first.classList.add('animationcome');
+    firstinfo.classList.add('animationcome');
+    introsection.classList.add('animationleave')
+    intro.classList.add('animationleave')
+
+});
 
 // Faire venir Sphere 2
 document.getElementById("btn1next").addEventListener("click",(e) => {
@@ -23,6 +47,10 @@ document.getElementById("btn1next").addEventListener("click",(e) => {
         if (first.classList[i] == 'animationcomefromleft') {
             first.classList.remove('animationcomefromleft');
             firstinfo.classList.remove('animationcomefromleft');
+        }
+        if (first.classList[i] == 'animationcome') {
+            first.classList.remove('animationcome');
+            firstinfo.classList.remove('animationcome');
         }
         if (second.classList[i] == 'animationcome') {
             second.classList.remove('animationcome');
@@ -223,5 +251,4 @@ document.getElementById("btn5after").addEventListener("click",(e) => {
     }
     logo.innerHTML= "<img class='logoheader' src='assets/logo4.png' height='400'>"
 });
-
 

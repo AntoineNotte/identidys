@@ -166,7 +166,7 @@ header {
 }
 .infosection {
     position:absolute;
-    left:0;
+    left:100em;
     transition: left 1s, transform 1s;
     white-space: nowrap;
 }
@@ -215,6 +215,16 @@ textarea {
 .progress {
     margin-bottom: 2em;
     margin-top:-3em;
+}
+#intro{
+    position:absolute;
+}
+#introsection{
+    position: absolute;
+}
+.firstsection{
+    right:-100em!important;
+    
 }
 .secondsection {
     border : 2px #7030a0 solid;
@@ -821,4 +831,12 @@ margin-left: 0;
     font-weight: bold;
     text-align: center;
     margin-right:1em;
+}
+
+#texte{
+    width: 750px;
+    margin:auto;
+}
+#texte h1{
+    color:#F27F3D
 }
